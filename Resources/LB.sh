@@ -83,9 +83,9 @@
 # }
 # add
 
-X=0
-until [ $x = 6 ]
-do
-    echo "x is $x"
-    $x + 1
-done
+# X=0
+# until [ $x = 6 ]
+# do
+#     echo "x is $x"
+#     $x + 1
+# done
