@@ -18,20 +18,25 @@
 #     }
 #     multiply
 
-# echo "Give me 2 numbers to divide bruv!"
+# echo "Give me 2 numbers and I'll subtract em for ya!"
 # read num1
 # read num2
-# function divide(){
-#     sum=$(( $num1 / $num2 ))
+# function subtract(){
+#     sum=$(( $num1 - $num2 ))
 #     echo $sum
 #     }
-#     divide
+#     subtract
 
-echo "Give me 2 numbers and I'll subtract em for ya!"
+echo "Give me 2 numbers to divide bruv!"
 read num1
 read num2
-function subtract(){
-    sum=$(( $num1 - $num2 ))
+if [ "$num2" = 0 ]
+    then
+    echo "Woooaaah there, cant do that. You know we cant divide by zero!"
+else
+    divide() {
+    sum=$(( $num1 / $num2 ))
     echo $sum
     }
-    subtract
+    divide
+fi
