@@ -18,11 +18,20 @@
 #     }
 #     multiply
 
-echo "Give me 2 numbers to divide bruv!"
+# echo "Give me 2 numbers to divide bruv!"
+# read num1
+# read num2
+# function divide(){
+#     sum=$(( $num1 / $num2 ))
+#     echo $sum
+#     }
+#     divide
+
+echo "Give me 2 numbers and I'll subtract em for ya!"
 read num1
 read num2
-function divide(){
-    sum=$(( $num1 / $num2 ))
+function subtract(){
+    sum=$(( $num1 - $num2 ))
     echo $sum
     }
-    divide
+    subtract
