@@ -11,4 +11,6 @@ function lazy() {
     git push
 }
 lazy
+echo "Enter any letter other than x"
+read user
 done
