@@ -51,7 +51,7 @@
 # fi
 
 # #While loop run till acceptance not met
-user = y
+user=y
 while [ $user = y ]
 do
 echo "Please make a selection"
