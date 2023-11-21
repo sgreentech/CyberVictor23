@@ -4,6 +4,7 @@
 user=x
 while [ $user=x ]
 do
+echo "What did you update?"
 read message
 function lazy() {
     git add *
@@ -11,6 +12,6 @@ function lazy() {
     git push
 }
 lazy
-echo "Enter any letter other than x"
+echo "Enter c to complete"
 read user
 done
