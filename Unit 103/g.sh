@@ -2,7 +2,7 @@
 #function to auto push changes into git
 
 user=x
-while [ $user=x ]
+while [ $user = x ]
 do
 echo "What did you update?"
 read message
