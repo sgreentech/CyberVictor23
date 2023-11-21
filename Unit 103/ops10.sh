@@ -22,4 +22,4 @@ do
 fi
 done
 echo "you did it, you got to 10!!"
-sleep 2
+sleep 1
