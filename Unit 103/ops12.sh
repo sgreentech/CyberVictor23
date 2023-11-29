@@ -3,7 +3,7 @@
 echo "How are you doing today?(enter Good, Bad, Okay, or Not great)"
 read response
 
-echo " $response!?"
+echo "$response!?"
 
 case $response in
     
