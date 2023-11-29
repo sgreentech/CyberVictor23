@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo -n  "How are you doing today?(enter Good, Bad, Okay, or Not great)"
+echo "How are you doing today?(enter Good, Bad, Okay, or Not great)"
 read response
 
-echo " ($response) !?"
+echo " $response!?"
 
 case $response in
     
@@ -17,5 +17,8 @@ case $response in
         
     Okay | okay | meh | Meh)
         echo "Sweet, just an average day huh? Welp, make sure your drinking water and resting when you need to."
+        ;;
+    *)
+        echo "What'd you say? My programmer didnt add a response for that...fortunately."
         ;;
 esac
