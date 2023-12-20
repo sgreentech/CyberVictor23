@@ -6,15 +6,10 @@ number = int(input("Which number do you want to check? "))
 
 #Write your code below this line 👇
 
-
-
-
-
-
-
-
-
-
+if (number%2) == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
 
 
 # Create a program using maths and f-Strings that tells us how many 
@@ -33,3 +28,9 @@ age = int(input("What is your current age? "))
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+
+yearsleft=90-age
+days=yearsleft*365
+weeks=yearsleft*52
+months=yearsleft*12
+print(f"There are {days} days, {weeks} weeks, and {months} months left until you are 90!")
