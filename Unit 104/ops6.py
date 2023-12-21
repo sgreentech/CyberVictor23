@@ -17,7 +17,7 @@
 q = int(input("Can you guess the number that I have strategically forgetten as well?"))
 
 while q != int(9):
-    print("You're stuck, phone a friend to help you get out of this loop perhaps.")
+    print("Tee hee;You're stuck in a loop, phone a friend to help you get out perhaps.")
     q = int(input("Guess again Ki Mo Sabe!"))
 else: q == int(9)
 print(int(q))
