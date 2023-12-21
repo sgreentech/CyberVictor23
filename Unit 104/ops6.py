@@ -14,11 +14,11 @@
 # and the magician should say the following words: "Well done, muggle! You are free now."
 # The magician is counting on you! Don't disappoint him.
 
-q = int(input("Can you guess the number that I have strategically forgetten as well?"))
+q = int(input("Dr. Strange: Can you guess the number that I have strategically forgetten as well? You: "))
 
 while q != int(9):
-    print("Tee hee;You're stuck in a loop, phone a friend to help you get out perhaps.")
-    q = int(input("Guess again Ki Mo Sabe!"))
+    print("Dr. Strange: Tee hee;You're stuck in a loop, phone a friend to help you get out perhaps.")
+    q = int(input("Dr. Strange: Guess again Ki Mo Sabe! You: "))
 else: q == int(9)
-print(int(q))
-print("Oh yea it was 9...thanks, I need to get exactly 9 eggs from the store.")
+print("*A grocery list appears out of thin air and lands in Dr. Stranges hands that reads* \n 'Eggs - 9'")
+print("Dr. Strange: Oh yea it was 9...thanks, I need to get exactly 9 eggs from the store.")
