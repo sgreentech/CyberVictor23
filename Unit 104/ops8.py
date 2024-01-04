@@ -4,3 +4,9 @@
 import time
 
 #Start code below this line:
+for x in range(6):
+    print(f"{x} mississippi")
+    time.sleep(1)
+    if x == 6:
+        break
+print("You may or may not be ready, but I'm comming anyway!")
